@@ -25,8 +25,18 @@
         <mxCell id="PlzY_ghdXiJMsDFdlUox-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PlzY_ghdXiJMsDFdlUox-9" target="PlzY_ghdXiJMsDFdlUox-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PlzY_ghdXiJMsDFdlUox-37" value="sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PlzY_ghdXiJMsDFdlUox-22">
+          <mxGeometry x="-0.05" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PlzY_ghdXiJMsDFdlUox-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PlzY_ghdXiJMsDFdlUox-9" target="PlzY_ghdXiJMsDFdlUox-25">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PlzY_ghdXiJMsDFdlUox-38" value="nao" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PlzY_ghdXiJMsDFdlUox-26">
+          <mxGeometry x="-0.3143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PlzY_ghdXiJMsDFdlUox-9" value="se n1 &amp;gt; n2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="420" width="80" height="80" as="geometry" />
@@ -39,6 +49,19 @@
         </mxCell>
         <mxCell id="PlzY_ghdXiJMsDFdlUox-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PlzY_ghdXiJMsDFdlUox-21" target="PlzY_ghdXiJMsDFdlUox-23">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PlzY_ghdXiJMsDFdlUox-40" value="sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PlzY_ghdXiJMsDFdlUox-24">
+          <mxGeometry x="-0.2444" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlzY_ghdXiJMsDFdlUox-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PlzY_ghdXiJMsDFdlUox-21" target="PlzY_ghdXiJMsDFdlUox-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PlzY_ghdXiJMsDFdlUox-39" value="nao" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PlzY_ghdXiJMsDFdlUox-36">
+          <mxGeometry x="-0.2" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PlzY_ghdXiJMsDFdlUox-21" value="se n1 &amp;gt; n3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="520" width="80" height="80" as="geometry" />
@@ -56,8 +79,18 @@
         <mxCell id="PlzY_ghdXiJMsDFdlUox-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PlzY_ghdXiJMsDFdlUox-25" target="PlzY_ghdXiJMsDFdlUox-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PlzY_ghdXiJMsDFdlUox-42" value="sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PlzY_ghdXiJMsDFdlUox-28">
+          <mxGeometry x="-0.1333" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PlzY_ghdXiJMsDFdlUox-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PlzY_ghdXiJMsDFdlUox-25" target="PlzY_ghdXiJMsDFdlUox-29">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PlzY_ghdXiJMsDFdlUox-41" value="nao" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PlzY_ghdXiJMsDFdlUox-30">
+          <mxGeometry x="-0.5652" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PlzY_ghdXiJMsDFdlUox-25" value="se n2 &amp;gt; n3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="540" width="80" height="80" as="geometry" />
@@ -80,6 +113,9 @@
         </mxCell>
         <mxCell id="PlzY_ghdXiJMsDFdlUox-31" value="fim" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="810" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PlzY_ghdXiJMsDFdlUox-35" value="imprima(&quot;n3 é o maior número&quot;)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="530" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
