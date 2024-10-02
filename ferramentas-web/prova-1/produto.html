@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O tal do produto</title>
+  <style>
+    .produtos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .produtos-title {
+      width: 100%;
+      text-align: center;
+      font-size: 2em;
+      margin: 0;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    .produto-box {
+      width: 300px;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .produto-title {
+      font-size: 1.5em;
+      text-transform: capitalize;
+      margin: 0;
+    }
+
+    .produto-description {
+      font-size: 1em;
+      color: #666;
+    }
+
+    .produto-price-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-flow: column;
+      gap: 15px;
+    }
+
+    .produto-price {
+      font-size: 1.5em;
+      color: #f52929;
+      will-change: rotate, scale;
+      font-weight: bolder;
+      animation: aumenta-diminui infinite 2s alternate;
+    }
+
+    .produto-button {
+      padding: 5px 10px;
+      background-color: #376e48;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.5s;
+      text-transform: uppercase;
+      font-size: 1.4rem;
+    }
+
+    .produto-button:hover {
+      background-color: #1bc30c;
+    }
+
+    .produto-img {
+      width: 100%;
+      border-radius: 5px;
+      object-fit: cover;
+    }
+
+    @keyframes aumenta-diminui{
+      0%{
+        transform: rotate(-5deg);
+      }
+      40%, 60%{
+        transform: rotate(0deg) scale(1.1);
+      }
+      100%{
+        transform: rotate(5deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="produtos">
+    <h1 class="produtos-title">prodrutos</h1>
+    <article class="produto-box">
+      <img 
+        src="https://yt3.googleusercontent.com/vNJmel6IGB5FrKf9e3uVvj9z3hLcbybp1o1dJMvg3btGNbY2BELFXhuq6LfGu2cOF1tNOCEq0L8=s900-c-k-c0x00ffffff-no-rj" 
+        alt="gato mexicano" 
+        class="produto-img"
+      >
+      <h2 class="produto-title">gato mexicano</h2>
+      <p class="produto-description">gato mexicano é um gato muito bonito e muito caro</p>
+      <div class="produto-price-box">
+        <span class="produto-price">R$ 9999,99</span>
+        <button class="produto-button">comprar</button>
+      </div>
+    </article>
+  </section>
+  
+</body>
+</html>
