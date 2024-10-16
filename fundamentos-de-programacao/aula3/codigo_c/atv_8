@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    char sexo;
+
+    printf("Digite F para feminino, M para masculino ou outra letra para indefinido/outros: ");
+    scanf(" %c", &sexo);
+
+    if (sexo == 'F' || sexo == 'f') {
+        printf("Feminino.\n");
+    } else if (sexo == 'M' || sexo == 'm') {
+        printf("Masculino.\n");
+    } else {
+        printf("Indefinido/Outros.\n");
+    }
+
+    return 0;
+}
